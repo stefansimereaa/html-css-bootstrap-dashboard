@@ -28,7 +28,8 @@ body{
     background-color: #061e34;
     filter: hue-rotate(180deg);
     filter: brightness(1.5);
-    width: 300px;
+    width: 150px;
+    height: 100vh;
 }
 
 .main-content{
@@ -117,7 +118,7 @@ main{
     color: white;
     padding: 0px 10px;
     font-size: 13px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 /* Main Content */
