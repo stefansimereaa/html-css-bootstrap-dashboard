@@ -13,9 +13,16 @@ body{
 
 /*Utils Layout*/
 
-.container{
-    width: 200px;
+.container-menu{
+    width: 100%;
+    border: 2px solid violet;
 }
+
+.container-content{
+    border: 2px solid green;
+    height: 500px;
+}
+
 
 .side-bar{
     display: inline-block;
@@ -40,8 +47,6 @@ body{
     background-color: white;
     background-color: rgba(255, 255, 255, 0.4)
 }
-
-
 
 /* Header */
 
@@ -68,8 +73,6 @@ body{
     background-color: var(--navbar);
 }
 
-
-
 /* Main */
 
 /* Sidebar */
@@ -85,9 +88,40 @@ body{
     font-size: 18px;
 }
 
+/* Main Menu */
+
+.container-menu{
+    background-color: var(--body-bg);
+    color: white;
+}
+
+.container-menu h4{
+    font-size: 18px;
+}
+
+.container-menu .btn{
+    padding: 5px 10px;
+}
+
+.container-menu .btn-blue{
+    background-color: var(--body-bg);
+    border: 2px solid white;
+    color: white;
+}
+
+.container-menu .btn-dark-blue{
+    background-color: 
+    #165bba;
+    border-radius: 15px;
+    color: white;
+    padding: 0px 10px;
+}
 
 
 /* Main Content */
+
+
+
 
 
 
