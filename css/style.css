@@ -35,11 +35,7 @@ body{
 .main-content{
     width: 100%;
     overflow-y: auto;
-}
-
-.container-content{
-    overflow-y: auto;
-    height: 800px;
+    height: 100vh;
     flex-grow: 1;
 }
 
@@ -77,6 +73,11 @@ body{
 }
 
 /* Main */
+
+.container-content{
+    overflow-y: auto;
+    flex-grow: 1;
+}
 
 /* Sidebar */
 
@@ -126,6 +127,14 @@ body{
 
 .container-content .card-header{
     font-size: 20px;
+}
+
+.container-content img{
+    height: 200px;
+}
+
+.container-content p{
+    font-size: 14px;
 }
 
 /* Dimesioni 576 768 992 1200 */
