@@ -16,8 +16,7 @@ body{
     height: 2000px;
 }
 header{
-    border: 10px solid red;
-    height: 200px;
+    /* border: 10px solid red; */
 }
 
 .container{
@@ -39,4 +38,23 @@ header{
 
 .container-side-main{
     border: 10px solid gold;
+}
+
+
+
+/* Header */
+
+/* Navbar */
+.navbar .navbar-brand img{
+    max-width: 50px;
+}
+
+
+.navbar i{
+    color: orange;
+}
+
+.search-icon{
+    font-family: 'fontawesome';
+    font-size: 15px;
 }
