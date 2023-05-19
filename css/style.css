@@ -15,12 +15,10 @@ body{
 
 .container-menu{
     width: 100%;
-    border: 2px solid violet;
 }
 
-.container-content{
-    border: 2px solid green;
-    height: 500px;
+.container-side-main{
+    width: 100%;
 }
 
 
@@ -31,13 +29,11 @@ body{
     filter: hue-rotate(180deg);
     filter: brightness(1.5);
     width: 300px;
-
 }
 
 .main-content{
-    border: 2px dashed red;
     height: 800px;
-    width: 1800px;
+    width: 100%;
 }
 
 /* Hover effects */
@@ -74,6 +70,11 @@ body{
 }
 
 /* Main */
+
+main{
+    overflow-y: auto;
+    flex-grow: 1;
+}
 
 /* Sidebar */
 
@@ -112,16 +113,18 @@ body{
 .container-menu .btn-dark-blue{
     background-color: 
     #165bba;
-    border-radius: 15px;
+    border-radius: 20px;
     color: white;
     padding: 0px 10px;
+    font-size: 13px;
+    margin-left: 5px;
 }
-
 
 /* Main Content */
 
-
-
+.container-content .card-header{
+    font-size: 20px;
+}
 
 
 
