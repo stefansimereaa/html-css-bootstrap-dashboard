@@ -49,8 +49,14 @@ header{
     max-width: 50px;
 }
 
+.navbar .navbar-brand-2 img{
+    max-width: 150px;
+    padding: 0px 10px;
+}
 
-.navbar i{
+
+
+.navbar .bell{
     color: orange;
 }
 
@@ -58,3 +64,10 @@ header{
     font-family: 'fontawesome';
     font-size: 15px;
 }
+
+
+
+/* Dimesioni 576 768 992 1200 */
+
+signal sidebar
+<i class="fa-solid fa-signal"></i>

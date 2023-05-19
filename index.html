@@ -15,14 +15,18 @@
         <header>
             <nav class="navbar navbar-expand bg-body-tertiary">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="img/mobile-logo.png" alt="mobile-logo"></a>
+                  <a class="navbar-brand d-lg-none" href="#"><img src="img/mobile-logo.png" alt="mobile-logo"></a>
+                  <a class="navbar-brand-2 d-none d-lg-block" href="#"><img src="img/logo.svg" alt="desktop-logo"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <form class="d-flex w-100" role="search">
                         <input class="form-control me-2 search-icon" type="search" placeholder=" &#xf002;  Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                        <button class="btn" type="submit"><i class="fa-solid fa-bell"></i></button>
+                        <button class="btn d-none d-lg-block" type="submit"><i class="fa-solid fa-list"></i></button>
+                        <button class="btn d-none d-lg-block" type="submit"><i class="fa-solid fa-circle-question"></i></button>
+                        <button class="btn d-none d-lg-block" type="submit"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                        <button class="btn bell" type="submit"><i class="fa-solid fa-bell"></i></button>
                     </form>
                   </div>
                 </div>
