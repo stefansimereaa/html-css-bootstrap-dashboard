@@ -26,7 +26,16 @@
                         <button class="btn d-none d-lg-block" type="submit"><i class="fa-solid fa-list"></i></button>
                         <button class="btn d-none d-lg-block" type="submit"><i class="fa-solid fa-circle-question"></i></button>
                         <button class="btn d-none d-lg-block" type="submit"><i class="fa-solid fa-ellipsis-vertical"></i></button>
-                        <button class="btn bell" type="submit"><i class="fa-solid fa-bell"></i></button>
+                        <div class="dropdown">
+                            <button class="btn bell" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><button class="dropdown-item" type="button">Action</button></li>
+                              <li><button class="dropdown-item" type="button">Another action</button></li>
+                              <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                          </div>
                     </form>
                   </div>
                 </div>
@@ -71,7 +80,7 @@
                     </div>
                 </div>
                 <div class="main-content">
-    
+
                 </div>
             </div>
         </main>
