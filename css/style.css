@@ -18,7 +18,7 @@ body{
 }
 
 .container-side-main{
-    width: 100%;
+    width: 100vw;
 }
 
 
@@ -33,7 +33,7 @@ body{
 }
 
 .main-content{
-    width: 100%;
+    width: calc(100% - 150px);
     overflow-y: auto;
     height: 100vh;
     flex-grow: 1;
@@ -75,9 +75,7 @@ body{
 /* Main */
 
 .container-content{
-    overflow-y: auto;
     flex-grow: 1;
-    height: auto;
 }
 
 /* Sidebar */
