@@ -1,6 +1,7 @@
 /* Colors*/
 :root{
     --body-bg: #1d72e8;
+    --navbar:#e5e5e5;
 }
 
 /* Generics */
@@ -11,25 +12,21 @@ body{
 
 /*Utils Layout*/
 
-.container-page{
-    border: 2px solid black;
-    height: 2000px;
-}
-header{
-    /* border: 10px solid red; */
-}
-
 .container{
     border: 2px solid green;
-    height: 200px;
     width: 200px;
 }
 
-.sidebar{
-    border: 2px dashed green;
-    height: 800px;
+.side-bar{
+    display: inline-block;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #061e34;
+    filter: hue-rotate(180deg);
+    filter: brightness(1.5);
     width: 300px;
+
 }
+
 .main-content{
     border: 2px dashed red;
     height: 800px;
@@ -40,10 +37,14 @@ header{
     border: 10px solid gold;
 }
 
+/* Hover effects */
+.hover-effect:hover .col{
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.4)
+}
 
 
 /* Header */
-
 /* Navbar */
 .navbar .navbar-brand img{
     max-width: 50px;
@@ -54,8 +55,6 @@ header{
     padding: 0px 10px;
 }
 
-
-
 .navbar .bell{
     color: orange;
 }
@@ -65,9 +64,23 @@ header{
     font-size: 15px;
 }
 
+.form-control{
+    background-color: var(--navbar);
+}
+
+
+/* Sidebar */
+
+.side-bar i{
+    font-size: 18px;
+    color: white;
+}
+
+.side-bar .title{
+    color: white;
+    padding: 0px 5px;
+    font-size: 18px;
+}
 
 
 /* Dimesioni 576 768 992 1200 */
-
-signal sidebar
-<i class="fa-solid fa-signal"></i>
