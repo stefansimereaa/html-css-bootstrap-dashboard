@@ -27,14 +27,20 @@ body{
     background-image: url(../img/sidebar-bg.png);
     background-color: #061e34;
     filter: hue-rotate(180deg);
-    filter: brightness(1.5);
+    filter: brightness(1);
     width: 150px;
     height: 100vh;
 }
 
 .main-content{
-    height: 800px;
     width: 100%;
+    overflow-y: auto;
+}
+
+.container-content{
+    overflow-y: auto;
+    height: 800px;
+    flex-grow: 1;
 }
 
 /* Hover effects */
@@ -71,11 +77,6 @@ body{
 }
 
 /* Main */
-
-main{
-    overflow-y: auto;
-    flex-grow: 1;
-}
 
 /* Sidebar */
 
@@ -126,7 +127,5 @@ main{
 .container-content .card-header{
     font-size: 20px;
 }
-
-
 
 /* Dimesioni 576 768 992 1200 */
