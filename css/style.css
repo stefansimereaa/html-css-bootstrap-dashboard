@@ -1,0 +1,42 @@
+/* Colors*/
+:root{
+    --body-bg: #1d72e8;
+}
+
+/* Generics */
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
+}
+
+/*Utils Layout*/
+
+.container-page{
+    border: 2px solid black;
+    height: 2000px;
+}
+header{
+    border: 10px solid red;
+    height: 200px;
+}
+
+.container{
+    border: 2px solid green;
+    height: 200px;
+    width: 200px;
+}
+
+.sidebar{
+    border: 2px dashed green;
+    height: 800px;
+    width: 300px;
+}
+.main-content{
+    border: 2px dashed red;
+    height: 800px;
+    width: 1400px;
+}
+
+.container-side-main{
+    border: 10px solid gold;
+}
