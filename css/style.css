@@ -129,11 +129,46 @@ body{
 }
 
 .container-content img{
-    height: 200px;
+    height: 180px;
 }
 
 .container-content p{
     font-size: 14px;
 }
 
+/* Table Classes */
+
+.circle-background{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f26551;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.square-background{
+    width: 30px;
+    height: 30px;
+    color: grey;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* Responsive */
+
+@media (min-width: 576px) {
+    .table th:nth-child(2),
+    .table td:nth-child(2) {
+      display: block;
+    }
+  }
+
 /* Dimesioni 576 768 992 1200 */
+
