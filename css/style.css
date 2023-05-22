@@ -52,6 +52,8 @@ body{
     color: var(--body-bg);
 }
 
+
+
 /* Header */
 /* Navbar */
 .navbar .navbar-brand img{
@@ -152,7 +154,7 @@ body{
 
 /* Table Classes */
 
-.circle-background{
+.table .circle-background{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -164,7 +166,7 @@ body{
     margin-right: 10px;
 }
 
-.square-background{
+.table .square-background{
     width: 30px;
     height: 30px;
     color: grey;
