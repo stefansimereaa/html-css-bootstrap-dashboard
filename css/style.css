@@ -126,8 +126,10 @@ body{
     margin-left: 10px;
 }
 
+
+/* Off Canvas */
 #offcanvasRight{
-    width: 800px;
+    width: 600px;
 }
 
 #offcanvasRight .offcanvas-body .form-control{
