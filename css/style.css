@@ -47,8 +47,12 @@ body{
     background-color: rgba(255, 255, 255, 0.4)
 }
 
-/* Header */
+/* Table Classes */
+.square-background:hover i{
+    color: var(--body-bg);
+}
 
+/* Header */
 /* Navbar */
 .navbar .navbar-brand img{
     max-width: 50px;
@@ -122,6 +126,14 @@ body{
     margin-left: 10px;
 }
 
+#offcanvasRight{
+    width: 800px;
+}
+
+#offcanvasRight .offcanvas-body .form-control{
+    background-color: white;
+}
+
 /* Main Content */
 
 .container-content .card-header{
@@ -170,5 +182,5 @@ body{
     }
   }
 
-/* Dimesioni 576 768 992 1200 */
+/* Dimesions 576 768 992 1200 */
 
